@@ -1,0 +1,329 @@
+dark eclipse moon
+==========================================================================
+Lucene
+===========
+ Dark_moon score=0.37099737
+ Magnitude_of_an_eclipse score=0.33741194
+ Magnitude_of_eclipse score=0.33741194
+ Solar_eclipse_of_July_29,_1878 score=0.29832762
+ Solar_eclipse_of_May_10,_1994 score=0.27808654
+
+BM25
+======
+
+1 Q0 Ancient_Greece 1 3.8636056738502575 BM25
+1 Q0 General_relativity 2 3.64385492086811 BM25
+1 Q0 Corona 3 3.518491297905511 BM25
+1 Q0 Daguerreotype 4 3.4803880839727297 BM25
+1 Q0 Constantinople 5 3.457030785148244 BM25
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.04 from rank 1 to rank 2, from rank 2 to rank 3 it remained almost same and then from rank 3
+the rank dropped by 0.04 and 0.02 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 0.22 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 0.13 and then from rank 3
+the rank dropped by 0.03 and 0.02 subsequently.
+
+There was no match between top 5 from both the IR systems.
+
+=======================================================================
+forecast models
+=========================================================================
+Lucene
+===========
+ Predictive_power score=0.22611862
+ Helioseismology score=0.14736286
+ Space_weather score=0.14709309
+ Solar_eclipse_of_September_4,_2100 score=0.11863874
+ Skylab score=0.11026891
+
+BM25
+======
+
+2 Q1 Digital_camera 1 9.050522494080006 BM25
+2 Q1 Skylab 2 8.823084095851968 BM25
+2 Q1 Helioseismology 3 8.793680543310513 BM25
+2 Q1 Space_weather 4 7.982514902785786 BM25
+2 Q1 Wind_power 5 6.765079364196646 BM25
+
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.23 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.03 and then from rank 3
+the rank dropped by 0.04 and 0.02 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 0.22 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 0.13 and then from rank 3
+the rank dropped by 0.81 and 1.22 subsequently.
+
+There were 3 matches between top 5 from both the IR systems which are Helioseismology,Space_weather and Skylab which are of rank 2,3,5 in Lucene IR and of rank 3,4,2 in BM25 respectively.
+
+=======================================================================
+
+total eclipse solar
+=========================================================================
+Lucene
+===========
+ List_of_solar_eclipses_visible_from_Russia score=0.58245933
+ Solar_Saros_126 score=0.55160505
+ List_of_solar_eclipses_visible_from_the_United_States score=0.54187953
+ Solar_eclipse_of_April_16,_1874 score=0.50109994
+ Solar_eclipse_of_February_9,_1766 score=0.50109994
+
+BM25
+======
+
+3 Q2 Wayback_Machine 1 -0.06451530884614098 BM25
+3 Q2 Supernatural 2 -0.06673567223531233 BM25
+3 Q2 State_equation 3 -0.06718680104152525 BM25
+3 Q2 Spectroscope 4 -0.06751661698562833 BM25
+3 Q2 Russian_Academy_of_Sciences 5 -0.07111328469405942 BM25
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.03 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.031 and then from rank 3
+the rank dropped by 0.04 and 0 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 0.02 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 0.01 and then from rank 3
+the rank dropped by 0.003 and 0.04 subsequently.
+
+There was no match between top 5 from both the IR systems.
+
+
+=======================================================================
+japan continental airline
+=========================================================================
+Lucene
+===========
+ Aeroflot score=0.17666464
+ Solar_eclipse_of_May_20,_2012 score=0.12493521
+ Novosibirsk score=0.11244862
+ Concorde score=0.10306701
+ Synchronous_grid_of_Continental_Europe score=0.084893554
+
+BM25
+======
+
+4 Q3 Concorde 1 15.84462972025111 BM25
+4 Q3 France 2 15.19088342792888 BM25
+4 Q3 Aeroflot 3 13.563593766524683 BM25
+4 Q3 International_Space_Station 4 11.727005190717344 BM25
+4 Q3 Heathrow_Airport 5 11.549245102328753 BM25
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.05 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.01 and then from rank 3
+the rank dropped by 0.01 and 0.02 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 0.6 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 2.5 and then from rank 3
+the rank dropped by 2.2 and 0.2 subsequently.
+
+There were 2 matches between top 5 from both the IR systems which are Aeroflot and Concorde which are of rank 1,4 in Lucene IR and of rank 3,1 in BM25 respectively.
+
+
+=======================================================================
+japan continental airlines
+=========================================================================
+Lucene
+===========
+ Solar_eclipse_of_July_22,_2009 score=0.20294857
+ Heathrow_Airport score=0.17733006
+ Concorde score=0.17278837
+ Aeroflot score=0.16868798
+ Novosibirsk score=0.13506338
+
+BM25
+======
+
+5 Q4 Concorde 1 18.051450359065537 BM25
+5 Q4 France 2 15.275808679876036 BM25
+5 Q4 Aeroflot 3 13.699247232019694 BM25
+5 Q4 Heathrow_Airport 4 12.340850886449479 BM25
+5 Q4 Turkey 5 10.754674219400387 BM25
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.03 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.00 and then from rank 3
+the rank dropped by 0.01 and 0.03 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by approx 3.0 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 2.0 approx and then from rank 3
+the rank dropped by 1.35 and 1.59 subsequently.
+
+There were 3 matches between top 5 from both the IR systems which are Heathrow_Airport, Concorde and Aeroflot which are of rank 2,3,4 in Lucene IR and of rank 4,1,3 in BM25 respectively.
+
+
+=======================================================================
+solar eclipse fiction
+=========================================================================
+Lucene
+===========
+ Solar_eclipses_in_fiction score=0.28046656
+ List_of_solar_eclipses_visible_from_Ukraine score=0.26441967
+ List_of_solar_eclipses_visible_from_the_Philippines score=0.25807667
+ Eclipse_of_the_Sun_(novel) score=0.24245355
+ List_of_solar_eclipses_visible_from_Russia score=0.18648875
+
+BM25
+======
+
+6 Q5 Russia 1 5.902178180533553 BM25
+6 Q5 Patrick_Moore 2 5.184960473296981 BM25
+6 Q5 Alderney 3 5.024725921782633 BM25
+6 Q5 Film 4 4.805958744256061 BM25
+6 Q5 Blindness 5 4.241920335105394 BM25
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.02 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.01 and then from rank 3
+the rank dropped by 0.01 and 0.06 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 0.72 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 0.16 and then from rank 3
+the rank dropped by 0.22 and 0.56 subsequently.
+
+There was no match between top 5 from both the IR systems.
+
+
+=======================================================================
+2017 solar eclipse
+=========================================================================
+Lucene
+===========
+ List_of_solar_eclipses_visible_from_Ukraine score=0.86844844
+ List_of_solar_eclipses_visible_from_the_Philippines score=0.8476157
+ List_of_solar_eclipses_visible_from_Russia score=0.61249554
+ Solar_eclipse_of_May_30,_1946 score=0.49815834
+ Solar_Saros_126 score=0.47903097
+
+BM25
+======
+
+7 Q6 YouTube 1 12.781914050677809 BM25
+7 Q6 Transit_(astronomy) 2 -0.20467204038361217 BM25
+7 Q6 Lunar_Laser_Ranging_experiment 3 -0.24125324669092324 BM25
+7 Q6 Libertad_Lamarque 4 -0.24408761919695607 BM25
+7 Q6 Estudios_San_Miguel 5 -0.27712191214969023 BM25
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.02 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.2 and then from rank 3
+the rank dropped by 0.12 and 0.02 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 12.98 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 0.04 and then from rank 3
+the rank dropped by 0.001 and 0.03 subsequently.
+
+There was no match between top 5 from both the IR systems.
+
+
+=======================================================================
+total eclipse lyrics
+=========================================================================
+Lucene
+===========
+ Solar_eclipse_of_July_10,_1972 score=0.37002528
+ Solar_eclipses_in_fiction score=0.19419965
+ R%C3%A2mnicu_V%C3%A2lcea score=0.18871558
+ List_of_solar_eclipses_visible_from_Russia score=0.11368384
+ List_of_solar_eclipses_visible_from_the_United_States score=0.11306226
+
+BM25
+======
+
+8 Q7 Compact_Disc 1 6.21863155537858 BM25
+8 Q7 Blue_moon 2 5.950902370114418 BM25
+8 Q7 Earthshine 3 5.823056201457387 BM25
+8 Q7 Latin_language 4 5.035654832069106 BM25
+8 Q7 Russia 5 4.42362777689028 BM25
+
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.18 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.01 and then from rank 3
+the rank dropped by 0.07 and 0.00 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 0.26 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 0.13 and then from rank 3
+the rank dropped by 0.79 and 0.61 subsequently.
+
+There was no match between top 5 from both the IR systems.
+
+
+=======================================================================
+nordic marine animals
+=========================================================================
+Lucene
+===========
+ Bay_of_Bengal score=0.11630859
+ Black_Sea score=0.084970936
+ Germany score=0.07549854
+ Lunar_effect score=0.074463345
+ Atlantic_Ocean score=0.073911026
+
+BM25
+======
+
+9 Q8 Germany 1 14.925002182776726 BM25
+9 Q8 Quebec 2 12.974877518015909 BM25
+9 Q8 Bay_of_Bengal 3 12.740793544315391 BM25
+9 Q8 Black_Sea 4 11.648021400109254 BM25
+9 Q8 Earth 5 10.950169500413232 BM25
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.03 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.01 and then from rank 3
+the rank dropped by 0.01 and 0.01 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 1.95 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 0.23 and then from rank 3
+the rank dropped by 1.1 and 0.69 subsequently.
+
+There were 3 matches between top 5 from both the IR systems which are Bay_of_Bengal,Black_Sea and Germany which are of rank 1,2,3 in Lucene IR and of rank 3,4,1 in BM25 respectively.
+
+
+=======================================================================
+volcanic eruptions tornadoes eruption tornado
+=========================================================================
+Lucene
+===========
+ Natural_phenomenon score=0.69705653
+ Lunar_mare score=0.13905115
+ Blue_moon score=0.05732819
+ Coronal_mass_ejection score=0.045705494
+ Earth score=0.045177538
+
+BM25
+======
+
+10 Q9 Natural_phenomenon 1 20.247183374431472 BM25
+10 Q9 Lunar_mare 2 18.762077750511967 BM25
+10 Q9 Blue_moon 3 16.76344082548046 BM25
+10 Q9 Coronal_mass_ejection 4 14.005172524869735 BM25
+10 Q9 Geology_of_the_Moon 5 13.71668781685114 BM25
+
+While ranking the documents using Lucene IR, the scores dropped sharply by 0.56 from rank 1 to rank 2, from rank 2 to rank 3 it dropped by 0.08 and then from rank 3
+the rank dropped by 0.01 and 0.00 subsequently.
+
+While ranking the documents using BM25 IR, the scores dropped sharply by 1.48 from rank 1 to rank 2. from rank 2 to rank 3 the scores dropped by 2 and then from rank 3
+the rank dropped by 2.76 and 0.29 subsequently.
+
+There were 4 matches between top 5 from both the IR systems which are Natural_phenomenon,Lunar_mare,Blue_moon and Coronal_mass_ejection which are of rank 1,2,3,4 in Lucene IR and of rank 1,2,3,4 in BM25 respectively.
+
+
+=======================================================================
+
+
+
+Conclusion
+===========
+1. The quality of results retrived from Lucene is better as compared to results retrived from BM25 retrival model. This is because the topical relevance is more visible from
+	reults obtained from Lucene retrival model as compared to results obtained from BM25 retrival model.
+
+	Example - "solar eclipse fiction" query when run in Lucene retrival model gives 
+	Solar_eclipses_in_fiction 
+	List_of_solar_eclipses_visible_from_Ukraine
+	List_of_solar_eclipses_visible_from_the_Philippines
+	Eclipse_of_the_Sun_(novel)
+	List_of_solar_eclipses_visible_from_Russia
+ 
+	Whereas when run in BM25 retrival model gives
+	Russia
+	Patrick_Moore
+	Alderney
+	Film
+	Blindness
+ 
+    This shows that topical relevance is more for results obtained from Lucene than compared to results obtained from BM25 retrival model.
+ 
+2.  It is also observed that when there are more number of hits for a query(Found in results.txt) there are few or no matches between results obtained from results of Lucene and   BM25 retrival model. But when there are less number of hits, there are more matches between results obtained from results of Lucene and BM25 retrival model.
+
+    Example - 
+	
+	1.Query - dark eclipse moon
+	  No. of Hits - 726
+	  Document matches from top 5 from both IR models - 0
+	  
+	2.Query - volcanic eruptions tornadoes eruption tornado
+	  No. of Hits - 50
+	  Document matches from top 5 from both IR models - 4
+ 
+ 
+

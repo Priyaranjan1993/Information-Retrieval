@@ -1,0 +1,21 @@
+1. At first, I calculated the document length of each document in the corpus. I counted the number of unique words in the document and stored it against each document name.
+
+2. I had earlier created a file for queries. The program read each query from the query file and made BM25 calculation for each query.
+
+3. The function BM25Calculation() does many calculations. First , it calculates the number of documents which is "N". It then calculates the average document length "avdl".
+	It then creates a inverted index of the unigram text file it was provided to it as the input.
+
+4. For each query The BM25Calculation() function then creates a inverted list "qry_inverted_List" for each word in it. It then creates a map/dictionary for storing the term frequency
+	for each word in the query i.e, "query_term_frequency".
+	
+5. For each entry in the "qry_inverted_List" , we calculate the value of "n" which is the count of the documents in which the query term appears. We then calculate "qf" which is the query term frequency.
+
+6.	Then for each posting of each term in the  "qry_inverted_List", we calcualate "f" and "dl".
+
+7.	Then using N,n,qf,f,dl,avdl computed above we calcualate BM25 score for each document present in the "qry_inverted_List" for each query.
+
+8. The function BM25_Formula() calculates "k" using N,n,qf,f,dl,avdl which are inputs to the function.
+
+9.	After finding all the BM25 scores for the query, we write the output to the file "results.txt".
+
+10. We repeat the same process for each query provided in the "queryList.txt".
