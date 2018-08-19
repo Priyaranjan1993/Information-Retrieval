@@ -1,0 +1,24 @@
+Perplexity for until convergence for G1
+==========================================
+Perplexity value for iteration 1: 120.07194389884637
+Perplexity value for iteration 2: 107.46849975586397
+Perplexity value for iteration 3: 94.09780768320384
+Perplexity value for iteration 4: 92.97819916821521
+Perplexity value for iteration 5: 93.89346088720794
+Perplexity value for iteration 6: 94.51940925712594
+Perplexity value for iteration 7: 94.75212152156264
+
+Perplexity for until convergence for G2
+==========================================
+Perplexity value for iteration 1: 120.07194389884637
+Perplexity value for iteration 2: 131.75175198072247
+Perplexity value for iteration 3: 113.68403624114515
+Perplexity value for iteration 4: 104.85523456920191
+Perplexity value for iteration 5: 99.56778253576933
+Perplexity value for iteration 6: 96.20935959457343
+Perplexity value for iteration 7: 93.95007577128104
+Perplexity value for iteration 8: 92.37835235278929
+Perplexity value for iteration 9: 91.26582873973847
+Perplexity value for iteration 10: 90.47063808972113
+Perplexity value for iteration 11: 89.89892634094652
+Perplexity value for iteration 12: 89.48634694820332

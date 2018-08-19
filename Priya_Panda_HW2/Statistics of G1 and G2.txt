@@ -1,0 +1,9 @@
+G1
+====
+The number of page with no inlinks - 0
+The number of page with no outlinks - 7
+
+G2
+====
+The number of page with no inlinks - 0
+The number of page with no outlinks - 3

@@ -1,0 +1,53 @@
+2.c.i - 
+	 G1(d = 0.55) vs G1(d = 0.85)
+	 =============================================
+     After changing the damping factor d=0.55, the pagerank of the URLs got changed. For instance, the pagerank of the URL https://en.wikipedia.org/wiki/Wayback_Machine was 0.023808711787288658 when d was 0.85 but it got changed to 0.011784242876500026 when d was changed to 0.55, resulting in changing the ordering according to the pagerank.
+	 
+	 The Perplexity values also changed per iteration when damping factor d was changed from 0.85 to 0.55. Plus changing the  damping factor d also resulted in decreasing the
+	 number of iterations. The repetation count was 7 when d was 0.85 but it reduced to 6 when d was made 0.55.
+	 
+	  G2(d = 0.55) vs G1(d = 0.85)
+	 =============================================
+	 After changing the damping factor d=0.55, the pagerank of the URLs which were also in the pagerank sequence of G1 graph got changed and it decreased. For instance, the pagerank of the URL https://en.wikipedia.org/wiki/Wayback_Machine was 0.023808711787288658 when d was 0.85 but it got changed and decreased to 0.00620081565806466 when d was changed to 0.55 for the G2 graph, resulting in changing the ordering according to the pagerank. And most of the URLs found in pagerank sequence of G1 graph were not found in pagerank sequence of G2(d = 0.55) grpah.
+	 
+	 The Perplexity values also changed per iteration when damping factor d was changed. Plus changing the  damping factor d also resulting in decreasing the
+	 number of iterations. The repetation count was 7 when d was 0.85 for G1 graph and it changed to 8 when d was made 0.55 for the G2 graph.
+	 
+    ii - G1 (4 iterations)
+		====================
+		After running the task 2-B for exactly 4 iterations, the pagerank of each URL of G1 graph increased a bit and the ordering according to the pagerank was changed with
+		respect to the earlier results when no fixed number of iterations was enforced.
+		
+		 G2 (4 iterations)
+		====================
+		Most of the URLs found in pagerank sequence of G2 graph(4 iterations) was not found in pagerank sequence of G1 graph(no fixed iteration) .However those which are found
+		such as https://en.wikipedia.org/wiki/Wayback_Machine had a pagerank of 0.00991654460866771 in G2 graph(4 iterations) but had a pagerank of 0.025139135599667812 in
+		G1 graph(no fixed iteration). Whereas URls such as https://en.wikipedia.org/wiki/Canada had a pagerank of 0.006460026968465928 in G2 graph(4 iterations) but had a 
+		pagerank of 0.004981591010323478 in pagerank sequence of G1 graph(no fixed iteration). So, there was even no fixed pattern of increment or decrement of pagerank for URLs
+		which were found in both.
+		
+	iii - G1(sort by rank) vs G1(sort by inlink count)
+		==============================================
+	    When pagerank sequence of G1(sort by rank) obtained in Task 2 B was compared to pagerank sequence of G1(sort by inlink count) for top 10 documents, we found that there
+		was no match in those ranking seqeuence. https://en.wikipedia.org/wiki/Wayback_Machine ranked first when sorted by Rank  whereas https://en.wikipedia.org/wiki/Solar_eclipse
+		ranked first when sorted by Inlink count.
+		
+		G1(sort by rank) vs G2(sort by inlink count)
+		==============================================
+		When pagerank sequence of G1(sort by rank) obtained in Task 2 B was compared to pagerank sequence of G2(sort by inlink count) for top 10 documents, we found that there
+		were 2 matches in those ranking sequence, i.e for https://en.wikipedia.org/wiki/Digital_object_identifier and https://en.wikipedia.org/wiki/International_Standard_Book_Number.
+		https://en.wikipedia.org/wiki/Digital_object_identifier ranked in 4th place in both of these ranking sequences.
+		
+		Pros of using the in-link count as an alternative to PageRank
+		===============================================================
+		1.The ranking is faster when ranked using in-link count as compared to PageRank.
+		2.The more the in-Link count, the higher is the importance of a page or URL since more links are pointing to it.
+		
+		
+		Cons of using the in-link count as an alternative to PageRank
+		===============================================================
+		1. Ranking according to in-link count can be subject to spamming where people can make fake URLs and point to a page , increasing its inlink count.
+		2. The quality of links when ranked according to PageRank is better since it depends on popularity of the page and the authority of the page and many other factors
+		   compared to when ranked by in-link count.
+		
+	 	
