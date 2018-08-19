@@ -1,0 +1,20 @@
+URL Overlap
+=============
+Only 31 URLs from both DFS and BFS crawling overlap.
+
+Quality and efficiency aspect
+==============================
+BFS - It takes 18.64 mins to execute crawling in case of BFS(includes some overhead)
+DFS - It takes 18.20 mins to execute crawling in case of DFS
+
+In short DFS takes a bit more time to execute than BFS if we remove the overhead from BFS.
+
+The quality of BFS is better in comparision to DFS in terms of keyword appearance i.e solar or eclipse
+
+Coverage
+============
+564 URLs match with the string "solar" or "eclipse" (both case insensitive) in case of BFS.
+Only 3 URL match with the string "solar" or "eclipse" (both case insensitive) in case of DFS.
+
+461 URLs match with the string "solar_eclipse" (case insensitive) in case of BFS.
+Only 1 URL match with the string "solar_eclipse" (case insensitive) in case of DFS.

@@ -1,0 +1,5 @@
+1. After retriving the keywords from the array, the algorithm gets all the urls from the given URL page(seed).
+2. The algorithm stores all the URLs retrived from the seed page in Elements Object.
+3. The algorithm then fetches each URL from the Elements Object using a for each loop.
+4. It then checks by converting the keywords, anchor text and the URL to lowercase and checks that the    given keywords are substrings of that anchor text or the URL using the contains() method of the          String class.
+5. If any of the given keywords are a match to any part of anchor text or URL, it proceeds forward       checking conditions and adds it to the set and the queue.
